@@ -1,4 +1,4 @@
-package com.niks.fragment.activities;
+package com.apoorv.fragment.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.niks.fragment.R;
+import com.apoorv.fragment.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,5 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void openCompileTimeFragment(View view) {
         startActivity(new Intent(MainActivity.this,CompileFragment.class));
+    }
+
+    public void gotoRunTime(View view) {
+        startActivity(new Intent(MainActivity.this,RunTimeFragment.class));
     }
 }

@@ -31,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_login"
+        android:onClick="gotoRunTime"
         android:text="Run Time Fragment"
         android:textColor="@android:color/white"
         android:background="@drawable/btn_circle"

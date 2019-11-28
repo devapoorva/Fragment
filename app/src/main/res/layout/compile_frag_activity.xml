@@ -11,9 +11,9 @@
 
         <fragment
             android:layout_width="match_parent"
-            android:id="@+id/frag_first"
             android:layout_height="match_parent"
-            android:name="com.niks.fragment.fragments.FirstFragment"/>
+            android:name="com.apoorv.fragment.fragments.FirstFragment"
+            android:id="@+id/first_fragment"/>
 
     </LinearLayout>
     <LinearLayout
@@ -21,10 +21,13 @@
         android:layout_height="match_parent"
         android:background="@android:color/holo_green_light"
         android:layout_weight="1">
+
+
         <fragment
             android:layout_width="match_parent"
-            android:id="@+id/frag_second"
             android:layout_height="match_parent"
-            android:name="com.niks.fragment.fragments.SecondFragment"/>
+            android:name="com.apoorv.fragment.fragments.SecondFragment"
+            android:id="@+id/second_fragment"/>
+
     </LinearLayout>
 </LinearLayout>
